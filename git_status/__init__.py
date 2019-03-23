@@ -29,7 +29,7 @@ class Status:
         self.out = get(path)
 
     def _startswith(self, string):
-        """return list of files startswith string"""
+        """return a list of files startswith string"""
         lines = []
         for line in self.out.splitlines():
             if line.find(string) == 0:
@@ -38,25 +38,25 @@ class Status:
 
     @property
     def A(self):
-        """return list of added files"""
+        """return a list of added files"""
         return self._startswith(" A")
 
     @property
     def D(self):
-        """return list of deleted files"""
+        """return a list of deleted files"""
         return self._startswith(" D")
 
     @property
     def M(self):
-        """return list of modified files"""
+        """return a list of modified files"""
         return self._startswith(" M")
 
     @property
     def R(self):
-        """return list of renamed files"""
+        """return a list of renamed files"""
         return self._startswith(" R")
 
     @property
     def untracked(self):
-        """return list of untracked files"""
+        """return a list of untracked files"""
         return self._startswith(" ??")

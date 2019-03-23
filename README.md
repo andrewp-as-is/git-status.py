@@ -1,30 +1,25 @@
-[![](https://img.shields.io/pypi/pyversions/git-status.svg?longCache=True)](https://pypi.org/pypi/git-status/)
-[![](https://img.shields.io/pypi/v/git-status.svg?maxAge=3600)](https://pypi.org/pypi/git-status/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/git-status.svg?longCache=True)](https://pypi.org/project/git-status/)
+[![](https://img.shields.io/pypi/v/git-status.svg?maxAge=3600)](https://pypi.org/project/git-status/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/git-status.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/git-status.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install git-status
 ```
 
 #### Classes
-
-###### `git_status.Status`
-
-`git status` parser
-
-@property|description
+class|`__doc__`
 -|-
-`A`|return list of added files
-`D`|return list of deleted files
-`M`|return list of modified files
-`R`|return list of renamed files
-`untracked`|return list of untracked files
+`git_status.Status` |`git status` parser
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`git_status.get(path=None)`|return `git status` string
+`git_status.get(path=None)` |return `git status` string
 
 #### Examples
 ```python
@@ -56,4 +51,6 @@ function|description
 ['path/to/untracked']
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
