@@ -1,11 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+__all__ = ['get', 'Status']
+
+
 import os
-import public
 import runcmd
 
 
-@public.add
 def get(path=None):
     """return `git status` string"""
     if not path:
@@ -15,7 +14,6 @@ def get(path=None):
     return r.out
 
 
-@public.add
 class Status:
     """`git status` parser"""
     __readme__ = ["startswith", "A", "D", "M", "R", "untracked"]

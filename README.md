@@ -1,26 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/git-status.svg?longCache=True)](https://pypi.org/project/git-status/)
-[![](https://img.shields.io/pypi/v/git-status.svg?maxAge=3600)](https://pypi.org/project/git-status/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/git-status.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/git-status.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/git-status.svg?maxAge=3600)](https://pypi.org/project/git-status/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/git-status.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/git-status.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install git-status
 ```
-
-#### Classes
-class|`__doc__`
--|-
-`git_status.Status` |`git status` parser
-
-#### Functions
-function|`__doc__`
--|-
-`git_status.get(path=None)` |return `git status` string
 
 #### Examples
 ```python
@@ -53,5 +43,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
